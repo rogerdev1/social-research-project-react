@@ -1,0 +1,88 @@
+{
+    "type": "table",
+    "database": null,
+    "name": "formulario",
+    "withoutRowId": false,
+    "strict": false,
+    "ddl": "CREATE TABLE formulario (id INTEGER PRIMARY KEY NOT NULL UNIQUE, nome TEXT, telefone TEXT, cep TEXT, rua TEXT, numero INTEGER, bairro TEXT, cidade TEXT, problemaAgua TEXT, empresaAgua TEXT, problemaLuz TEXT);",
+    "columns": [
+        {
+            "name": "id",
+            "type": "INTEGER",
+            "constraints": [
+                {
+                    "type": "PRIMARY KEY",
+                    "definition": "PRIMARY KEY "
+                },
+                {
+                    "type": "NOT NULL",
+                    "definition": "NOT NULL "
+                },
+                {
+                    "type": "UNIQUE",
+                    "definition": "UNIQUE"
+                }
+            ]
+        },
+        {
+            "name": "nome",
+            "type": "TEXT"
+        },
+        {
+            "name": "telefone",
+            "type": "TEXT"
+        },
+        {
+            "name": "cep",
+            "type": "TEXT"
+        },
+        {
+            "name": "rua",
+            "type": "TEXT"
+        },
+        {
+            "name": "numero",
+            "type": "INTEGER"
+        },
+        {
+            "name": "bairro",
+            "type": "TEXT"
+        },
+        {
+            "name": "cidade",
+            "type": "TEXT"
+        },
+        {
+            "name": "problemaAgua",
+            "type": "TEXT"
+        },
+        {
+            "name": "empresaAgua",
+            "type": "TEXT"
+        },
+        {
+            "name": "problemaLuz",
+            "type": "TEXT"
+        }
+    ],
+    "rows": [
+        [
+            0,
+            "teste1",
+            "5112345678",
+            "91320080",
+            "avenida ipê",
+            217,
+            "vila jardim",
+            "porto alegre",
+            "sim",
+            "dmae",
+            "sim"
+        ]
+    ],
+    "type": "index",
+    "database": null,
+    "name": "sqlite_autoindex_formulario_1",
+    "unique": true,
+    "ddl": "CREATE UNIQUE INDEX sqlite_autoindex_formulario_1 ON formulario (id COLLATE BINARY)"
+}

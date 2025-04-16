@@ -1,0 +1,50 @@
+div a{
+    text-decoration: none;
+}
+a p{
+    text-decoration: none;
+    padding-left: 10px;
+    display: none;
+}
+
+#contatoConteudo a{
+    display: flex; align-items: center;
+    border-radius: 50px;
+    position: absolute;
+}
+#contatoConteudo a#imgLinkedin:hover{
+    background-color: #0e76a8;
+    transition: .5s;
+}
+#contatoConteudo a#imgInstagram:hover{
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    transition: .5s;
+}
+#contatoConteudo a#imgEmail:hover{
+    background-color: gray;
+    transition: .5s;
+}
+#contatoConteudo a#imgGitHub:hover{
+    background-color: black;
+    transition: .5s;
+}
+#contatoConteudo a:hover > p{
+    color: aliceblue;
+    transition: .5s;
+    display: block;
+    width: 250px;
+}
+#contatoConteudo a span{
+    border-radius: 50%;
+    padding: 5px 15px;
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0px 5px 5px rgba(40, 0, 0, 0.582);
+}
+
+#imgInstagram span{
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+
+i{
+    color: aliceblue;
+}

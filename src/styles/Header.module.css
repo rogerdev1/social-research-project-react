@@ -1,0 +1,14 @@
+header li a, header div a{
+    text-decoration: none;
+    color: #fff;
+}
+
+header{
+    height: auto;
+    background-color: gray;
+}
+
+header .areaMenu{
+    display: flex; align-items: center;
+    justify-content: center;
+}
